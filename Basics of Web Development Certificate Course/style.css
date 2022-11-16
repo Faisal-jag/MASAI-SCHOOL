@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+
+body{
+font-family: 'Poppins', sans-serif;
+max-width: 75%;
+margin: auto;
+color: rgb(19, 19, 19);
+background-image: linear-gradient(rgba(133, 231, 126, 0.5), rgba(133, 231, 126, 0.15));
+}
+
+.header{
+display: flex;
+align-items: center;
+}
+
+/* css for header css start */
+.pic{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.title{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.name{
+color: rgb(72, 72, 72);
+font-size: 25px;
+}
+
+.contact tr td{
+    font-size: 14px;
+}
+
+.quali{
+letter-spacing: 1px;
+}
+
+.indigo{
+    color: indigo;
+}
+/* css for header end */
+
+.hrline{
+    border: 1px solid indigo;
+}
+
+/* css for info about me section start */
+.thead{
+    min-width: 250px;
+    display: block;
+}
+.side-head{
+    color: indigo;
+    font-size: 22px;
+}
+
+.marginfix{
+    margin-top: 20px;
+}
+
+.job{
+font-size: 18px;
+line-height: 25px;
+margin-top: 5px;
+}
+.job-dur{
+    font-weight: 300;
+line-height: 25px;
+}
+.job-dicr{
+    margin-top: 20px;
+}
+/* css for info about me section start */
